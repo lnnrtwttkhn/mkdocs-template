@@ -1,0 +1,14 @@
+image: python:3 # use a Docker container with Python 3
+before_script: # commands that should run before each job
+  # here, we install all the packages needed for mkdocs, using pip
+  - python -m pip install -r requirements.txt
+pages: # gitlab pages allows to publish static websites
+  stage: deploy # tells gitlab to deploy the website
+  script: # commands that are executed inside the container:
+  - mkdocs build # mkdocs command to build the website
+  - mv site public # move the contents of the website to public
+  artifacts:
+    paths:
+    - public # keep the contents of public available for download
+  only:
+  - main # only do this when new changes are pushed to the main branch
