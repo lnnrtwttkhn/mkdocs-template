@@ -4,7 +4,7 @@ name: Publish MkDocs via GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     name: Deploy docs
