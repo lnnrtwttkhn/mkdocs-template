@@ -1,1 +1,43 @@
-site_name: My Docs
+site_name: MkDocs Template # the name of the rendered docs page
+repo_url: https://github.com/lnnrtwttkhn/mkdocs-template # the url of the docs repository
+edit_uri: edit/main/docs/ # enable edit links in the rendered docs pages
+site_url: https://lennartwittkuhn.com/mkdocs-template # url of the rendered docs page
+docs_dir: docs # directory of the documentation files
+copyright: 'Copyright &copy; Lennart Wittkuhn' # copyright displayed in the footer
+nav:
+  - Home: index.md
+markdown_extensions:
+    - admonition
+    - codehilite:
+        linenums: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - footnotes
+    - toc:
+        baselevel: 1
+        permalink: true
+        separator: "_"
+        toc_depth: 3
+        anchorlink: false
+theme: material
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: timeago
+        timezone: Europe/Berlin
+        locale: en
+        fallback_to_build_date: false
+        exclude:
