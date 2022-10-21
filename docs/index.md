@@ -1,5 +1,7 @@
 # Welcome to MkDocs
 
+[![Publish MkDocs via GitHub Pages](https://github.com/lnnrtwttkhn/mkdocs-template/actions/workflows/main.yml/badge.svg)](https://github.com/lnnrtwttkhn/mkdocs-template/actions/workflows/main.yml)
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
