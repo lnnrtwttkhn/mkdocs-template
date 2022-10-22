@@ -1,7 +1,7 @@
 site_name: MkDocs Template # the name of the rendered docs page
 repo_url: https://github.com/lnnrtwttkhn/mkdocs-template # the url of the docs repository
 edit_uri: edit/main/docs/ # enable edit links in the rendered docs pages
-site_url: https://lennartwittkuhn.com/mkdocs-template # url of the rendered docs page
+site_url: https://lnnrtwttkhn.github.io/mkdocs-template # url of the rendered docs page
 docs_dir: docs # directory of the documentation files
 copyright: 'Copyright &copy; Lennart Wittkuhn' # copyright displayed in the footer
 nav:
