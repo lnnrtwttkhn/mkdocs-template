@@ -6,6 +6,7 @@ docs_dir: docs # directory of the documentation files
 copyright: 'Copyright &copy; Lennart Wittkuhn' # copyright displayed in the footer
 nav:
   - Home: index.md
+  - Guide: guide.md
 markdown_extensions:
     - admonition
     - codehilite:
@@ -34,6 +35,7 @@ markdown_extensions:
         anchorlink: false
 theme: material
 plugins:
+    - macros
     - search
     - git-revision-date-localized:
         type: timeago
